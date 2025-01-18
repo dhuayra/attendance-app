@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "barcode_scanner",
+    "name": "Attendance App",
     "slug": "barcode_scanner",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,16 +12,22 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dhuayra.barcode_scanner"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d23e694d-6a17-4c07-858f-35082dfd872d"
+      }
     }
   }
 }
